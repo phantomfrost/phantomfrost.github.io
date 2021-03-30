@@ -1,4 +1,9 @@
 // Custom styles.
+@font-face {
+  font-family: TITLE;
+  src: url(/assets/fonts/ITCEDSCR.TTF);
+}
+
 //侧边栏背景色
 .site-meta {
   background: #6bbbf5;
@@ -31,7 +36,7 @@ body {
 //标题字体
 .site-title {
   font-size: 25px ;
-  font-family: "Tangerine", "Segoe Script", "Lato", "Microsoft YaHei", sans-serif ;
+  font-family: "TITLE", "Segoe Script", "Lato", "Microsoft YaHei", sans-serif ;
 }
 //手机模式代码BUG修复
 @media (max-width: 767px) { .posts-expand { margin: 0 20px; }
