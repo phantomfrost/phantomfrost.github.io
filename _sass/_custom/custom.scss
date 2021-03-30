@@ -1,0 +1,94 @@
+// Custom styles.
+//侧边栏背景色
+.site-meta {
+  background: #6bbbf5;
+  opacity: 0.85;
+}
+// 添加背景图片
+body {
+      background: url(/assets/images/bg.jpg);//自己喜欢的图片地址
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: 50% 50%;
+}
+
+//博客内容透明化
+//文章内容的透明度设置
+.content-wrap {
+  opacity: 0.85;
+}
+
+//侧边框的透明度设置
+.sidebar {
+  opacity: 0.85;
+}
+
+//菜单栏的透明度设置
+.header-inner {
+  background: rgba(255,255,255,0.85);
+}
+//标题字体
+.site-title {
+  font-size: 25px ;
+  font-family: "Tangerine", "Segoe Script", "Lato", "Microsoft YaHei", sans-serif ;
+}
+//手机模式代码BUG修复
+@media (max-width: 767px) { .posts-expand { margin: 0 20px; }
+  .post-body pre { padding: 10px; }
+  .post-body pre .gutter pre { padding-right: 10px; }
+  .post-body .highlight { padding: 5px; }
+  .post-body .highlight .gutter pre { padding-right: 10px; } }
+
+code {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.3;
+}
+
+.highlight .gutter pre {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #888f96;
+    text-align: right;
+    background-color: black;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.highlight td {
+    border: none;
+    padding: 0;
+    background-color: #1d1f21;
+}
+
+.headband {
+    height: 3px;
+    background: #222;
+    display: none;
+}
+
+//副标题
+.site-subtitle {
+    color: white;
+}
+
+//侧边栏上浮距离
+.sidebar-inner.affix {
+    position: fixed;
+    top: 20px;
+}
+
+//底部阴影
+.footer {
+    color: white;
+}
+
+//爱心颜色
+.with-love {
+    color: #da7979;
+}
+
+//.fluid-vids {
+//    padding-bottom: 7.1005%; 
+//}
