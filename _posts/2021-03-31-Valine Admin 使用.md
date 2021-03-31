@@ -7,6 +7,8 @@ tags: 评论,Valine
 ## 简介
 Valine Admin 项目是一个对 [Valine](https://valine.js.org) 评论系统的拓展应用，可增强 Valine 的邮件通知功能。基于 Leancloud 的云引擎与云函数，主要实现评论邮件通知、评论管理、自定义邮件通知模板等功能，而且还可以提供邮件 `通知站长` 和 `@ 通知` 的功能。
 
+<!--more-->
+
 <a href="/高级配置.md#邮件通知展示" target="_black">点击查看演示</a>
 
 ## 部署
