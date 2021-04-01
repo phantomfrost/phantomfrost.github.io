@@ -19,8 +19,8 @@ baseurl:
 permalink: /:year/:month/:day/:title/
 
 # Pagination
-paginate: 20
-#paginate_path: "/page:num/"
+paginate: 2
+paginate_path: "/page:num/"
 #archive:
   #paginate: 10
   #paginate_path: "/page:num/"
