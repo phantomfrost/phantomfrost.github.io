@@ -443,7 +443,7 @@ changyan:
 
 # Support for valine comments system.
 valine_comment:
-  enable: false
+  enable: true
 # app_id
   leancloud_appid: juzSuYRPR7RrgGURCSl3DFwO-MdYXbMMI
 # app_key
@@ -455,7 +455,7 @@ valine_comment:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: true
+  enable: false
   clientID: dfee25188aa5ac35805b
   clientSecret: 79fe45f625b86eff412b89177c6992237d6802a4
   repo: phantomfrost.github.io
